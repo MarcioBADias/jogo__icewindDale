@@ -1,0 +1,34 @@
+.menu {
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu__logo{
+    margin-top: 1rem;
+    width: 22%;
+}
+.menu__link{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.menu__link-nav{
+    color: #011725;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+
+.menu__link-nav:hover{
+    border-bottom: 2px solid #011725;
+    cursor: pointer;
+}
+
+.menu__link-nav:active{
+    border-bottom: none;
+    color: aliceblue;
+}

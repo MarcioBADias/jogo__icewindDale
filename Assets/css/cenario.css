@@ -1,0 +1,30 @@
+.cenario{
+    align-items: center;
+    background: rgba(171, 211, 247, 0.452);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cenario__titulo{
+    font-size: 30px;
+    margin: .5rem 0;   
+}
+.cenario__card{
+    align-items: center;
+    border-top: 3px solid aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.cenario__card-bloco{
+    width: 20%;
+    margin-bottom: 1rem;
+}
+.cenario__card-miniMap{
+    border-radius: 200px;
+    width: 200px;
+    margin-bottom: .5rem;
+}
