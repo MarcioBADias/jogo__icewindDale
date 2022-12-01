@@ -1,0 +1,10 @@
+.base{
+    background: url(../img/BGICE.jpg) center / cover no-repeat;
+}
+
+.principal__map{
+    background: url(../img/Map.png) center / cover no-repeat;
+    height: calc(100vh - 142px);
+    margin: auto;
+    width: 99%;
+}
